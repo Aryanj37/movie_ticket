@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from '../others/Header'
-import Tabs from '../side_tabs/Tabs'
-import Filter from '../Filter/Filter'
+import Header from '../../others/Header'
+import Tabs from './side_tabs/Tabs'
+import Filter from './Filter/Filter'
+import Select_Movies from './Main_content/Main_Mov'
 
 const Main_page = () => {
   return (
@@ -10,6 +11,8 @@ const Main_page = () => {
       <Tabs/>
 
       <Filter/>
+      <Select_Movies/>
+
     </div>
   )
 }

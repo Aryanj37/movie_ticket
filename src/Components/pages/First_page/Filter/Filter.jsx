@@ -40,8 +40,8 @@ const Filter = () => {
       };
 
   return (
-    <div className="p-6 h-auto w-[400px] ml-10">
-        <h1 className="text-3xl font-bold text-gray-800 mb-4">Filter</h1>
+    <div className="p-6 h-auto w-[400px] ml-10 absolute top-20">
+        <h1 className="text-3xl font-semibold text-gray-800 mb-4">Filter</h1>
         <div className="max-w-md w-full">
 
             {choice.map((elem,idx)=>{
